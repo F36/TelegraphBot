@@ -1,0 +1,23 @@
+{
+  "name": "Telegram Telegra.ph upload bot",
+  "description": "You can upload photos on Telegram To Telegra.ph using this bot.",
+  "repository": "https://github.com/F36/TelegraphBot",
+  "logo": "https://telegra.ph/file/26034f1934114ce18ae8e.jpg",
+  "keywords": [
+    "bot",
+    "telegram",
+    "telegra.ph",
+    "image"
+  ],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "Add your own bot token. Get token from @botfather",
+      "value": ""
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
